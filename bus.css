@@ -1,0 +1,428 @@
+img{
+    width: 100%;
+    height: 70vh;
+}
+:root{
+    --place_color = color: rgb(4, 6, 95);
+    --place_font = 1.5em;
+    --place_center = center;
+    --bg = rgb(147, 156, 240);
+}
+.tittle{
+    text-align: center;
+    color:rgb(245, 9, 41);
+    font-size: 2em;
+    padding-top: 1.5em;
+}
+body{
+    background: rgb(216, 220, 238);
+    font-size:10px ;
+}
+
+#dinamic{
+    background: rgb(253, 221, 221);
+}
+
+.culucate{
+    margin-top: 11em;
+    background: var(--bg);
+    height: 36vh;
+    box-shadow: 0.1em 0.1em 6em  ;
+}
+
+.culucate h1{
+    text-align: center;
+    font-size: 2.5em;
+    color: rgb(20, 9, 185);
+    padding-bottom: 1em;
+}
+
+.culucate input{
+    margin-left: 7em;
+    width: 70%;
+    height: 5vh;
+}
+.culucate button{
+    margin-left: 5em;
+    height: 5vh;
+}
+
+.cul{
+    background:var(--bg);
+    padding-top: 3em;
+}
+
+#textt::placeholder{
+    color: var(--place_color);
+    font-size: var(--place_font);
+    text-align: center;
+}
+
+.spare{
+    margin-top: 11em;
+    background:var(--bg);
+    height: vh;
+    box-shadow: 0.1em 0.1em 6em  ;
+}
+
+.spare h1{
+    text-align: center;
+    font-size: 2.5em;
+    color: rgb(20, 9, 185);
+    padding-bottom: 1em;
+}
+
+.spare1{
+    background: var(--bg);
+    padding-top: 3em;
+}
+
+.spare input{
+    margin-left: 7em;
+    width: 70%;
+    height: 5vh;
+}
+
+.spare button{
+    margin-left: 5em;
+    height: 20vh;
+}
+
+#run_speed::placeholder{
+    color: var(--place_color);
+    font-size: var(--place_font);
+    text-align: center;
+}
+#more_have::placeholder{
+    color: var(--place_color);
+    font-size: var(--place_font);
+    text-align: center;
+}
+
+.create{
+    margin-top: 9em;
+    text-align: center;
+    background: red;
+    font-size: 1.9em;
+}
+
+.create01{
+    margin-top: 9em;
+    text-align: center;
+    font-size: 2em;
+    padding-top: 3em;
+    color:rgb(20, 9, 185);
+    padding-bottom: 0.6em;
+}
+
+.trip{
+    margin-top: 11em;
+    background:var(--bg);
+    height: 95vh;
+    box-shadow: 0.1em 0.1em 6em  ;
+}
+
+.trip h1{
+    padding-top: 2em;
+    text-align: center;
+    font-size: 2.5em;
+    color: rgb(20, 9, 185);
+    padding-bottom: 1em;
+}
+
+.trip01{
+    background:var(--bg) ;
+    padding-top: 7em;
+    margin-left: 50em;
+}
+.trip li{
+    font-size: 2.2em;
+}
+
+.trip button{
+    margin-left: 02em;
+    height: 6vh;
+    margin-top: 1em;
+}
+
+#cclick::placeholder{
+    color: var(--place_color);
+    font-size: var(--place_font);
+    text-align: center;
+}
+
+.coustmer{
+    margin-top: 11em;
+    background:var(--bg);
+    height: 44vh;
+    box-shadow: 0.1em 0.1em 6em  ;
+}
+
+.cous1{
+    background:var(--bg) ;
+    padding-top: 7em;
+    margin-left: 5em;
+}
+
+#cos::placeholder{
+    color: var(--place_color);
+    font-size: var(--place_font);
+    text-align: center;
+}
+
+.coustmer button{
+    margin-left: 02em;
+    height: 6vh;
+    margin-top: 1em;
+}
+.coustmer h1{
+    text-align: center;
+    font-size: 2.5em;
+    color: rgb(20, 9, 185);
+}
+
+.coustmer h2{
+    font-size: 2.2em;
+    margin-left: 5em;
+}
+
+.coustmer h1{
+    text-align: center;
+    font-size: 2.5em;
+    color: rgb(20, 9, 185);
+}
+.coustmer input{
+    margin-left: 7em;
+    width: 70%;
+    height: 5vh;
+}
+#pay{
+    margin-top: 11em;
+    background:var(--bg);
+    height: 44vh;
+    box-shadow: 0.1em 0.1em 6em  ;
+}
+
+.pay{
+    background:var(--bg) ;
+    padding-top: 7em;
+    margin-left: 5em;
+}
+.pay input{
+    margin-left: 7em;
+    width: 70%;
+    height: 5vh;
+}
+
+.pay button{
+    margin-left: 02em;
+    height: 6vh;
+}
+
+.pay h1{
+    padding-top: 0.2em;
+    text-align: center;
+    font-size: 2.5em;
+    color: rgb(15, 4, 165);
+    padding-bottom: 1em;
+}
+
+.pay h2{
+    padding-top: 0.2em;
+    text-align: center;
+    font-size: 2.5em;
+    color: rgb(20, 9, 185);
+    padding-bottom: 1em;
+}
+
+footer{
+    margin-top: 11em;
+    background:var(--bg);
+    height: 52vh;
+    box-shadow: 0.1em 0.1em 6em  ;
+   
+}
+
+footer .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .right{
+    width: 50%;
+        background:var(--bg) ;
+        padding-top: 7em;
+}
+.right .i{
+    margin-right: 7em;
+    display: flex;
+    margin-left: ;
+}
+.right .i2,.con2,.c2{
+   padding-left: 2em;
+}
+
+.container .right{
+        background:var(--bg) ;
+        padding-top: 7em;
+        margin-left: 5em;
+}
+
+.container .left{
+    width: 50%;
+        background:var(--bg) ;
+        padding-top: 7em;
+        background: url("kavi.jpg");
+        background-size: cover;
+        height: 40vh;
+}
+
+.left h1{
+    text-align: center;
+    font-size: 2.9em;
+    color: red;
+}
+
+
+.left h3{
+    padding-top: 1.6em;
+    font-size: 2em;
+    padding-left: 1em;
+}
+
+@media screen and (max-width :400px) {
+    img{
+        width: 90%;
+        height: 30vh;
+        margin-left: 2em;
+    }
+
+    .tittle{
+        text-align: center;
+        color:rgb(8, 25, 170);
+        font-size: 2em;
+        padding-top: 1em;
+    }
+    .culucate{
+        margin-top: 11em;
+        background: var(--bg);
+        height: 42vh;
+        width: 90%;
+        margin-left: 1.8em;
+        box-shadow: 0.1em 0.1em 7em  ;
+    }
+    .culucate input{
+        margin-left: 2em;
+        width: 60%;
+        height: 3vh;
+    }
+    .culucate button{
+        margin-left: 1em;
+        height: 3vh;
+    }
+    .spare{
+        margin-top: 11em;
+        background:var(--bg);
+        height: vh;
+        box-shadow: 0.1em 0.1em 6em  ;
+    }
+    .spare input{
+        margin-left: 2em;
+        width: 40%;
+        height: 3vh;
+    }
+
+    .spare button{
+        margin-left: 3em;
+        height: 4vh;
+        width: 80%;
+        margin-top: 1.4em;
+    }
+    .trip01{
+        background:var(--bg) ;
+        padding-top: 1em;
+        margin-left: 6em;
+        width: 90%;
+        margin-left: 1.8em;
+    }
+    .coustmer{
+        margin-top: 11em;
+        background:var(--bg);
+        height: 45vh;
+        box-shadow: 0.1em 0.1em 6em  ;
+    }
+
+    .coustmer h1{
+        text-align: center;
+        font-size: 2.5em;
+        color: rgb(20, 9, 185);
+    }
+    .coustmer input{
+        margin-left: 2em;
+        width: 40%;
+        height: 3vh;
+    }
+    .coustmer button{
+        margin-left: 1em;
+        height: 3vh;
+    }
+    .coustmer h2{
+        font-size: 2.2em;
+        color: rgb(1, 1, 19);
+        padding-right: -2em;
+    }
+    #pay{
+        margin-top: 11em;
+        background:var(--bg);
+        height: 50vh;
+        box-shadow: 0.1em 0.1em 6em  ;
+    }
+    .pay input{
+        margin-left: 2em;
+        width: 40%;
+        height: 3vh;
+    }
+    .pay button{
+        margin-left: 1em;
+        height: 3vh;
+    }
+    .pay h2{
+        padding-top: 0.2em;
+        text-align: center;
+        font-size: 2.5em;
+        color: rgb(7, 3, 63);
+        padding-bottom: 1em;
+        padding-right:6em;
+    }
+    .pay h1{
+        padding-top: 0.2em;
+        text-align: center;
+        font-size: 2.5em;
+        color: rgb(15, 4, 165);
+        padding-bottom: 1em;
+        padding-right:0.4em;
+    }
+    .container .right{
+        background:var(--bg) ;
+        padding-top: 7em;
+        margin-left: 2em;
+        padding-right: 1em;
+    }
+    .trip{
+        margin-top: 11em;
+        background:var(--bg);
+        height: 85vh;
+        box-shadow: 0.1em 0.1em 6em  ;
+        width: 90%;
+        margin-left: 1.8em;
+    }
+    .coustmer{
+        margin-top: 11em;
+        background:var(--bg);
+        height: 44vh;
+        box-shadow: 0.1em 0.1em 6em  ;
+        width: 90%;
+        margin-left: 1.8em;
+    }
+}
